@@ -9,6 +9,7 @@
       "description": "export chat history to local files before the session ends",
       "source": "./plugins/export-history",
       "hooks": {
+        "matcher": "",
         "SessionEnd": [
           {
             "type": "command",
