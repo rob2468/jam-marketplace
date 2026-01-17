@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "export-history",
-      "description": "",
+      "description": "export chat history to local files before the session ends",
       "source": "./plugins/export-history",
       "hooks": {
         "SessionEnd": [
