@@ -3,20 +3,14 @@
   "owner": {
     "name": "jam.chenjun"
   },
+  "metadata": {
+    "description": "jam.chenjun Claude Code marketplace"
+  },
   "plugins": [
     {
       "name": "export-history",
       "description": "export chat history to local files before the session ends",
-      "source": "./plugins/export-history",
-      "hooks": {
-        "matcher": "",
-        "SessionEnd": [
-          {
-            "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/main.sh"
-          }
-        ]
-      }
+      "source": "./plugins/export-history"
     }
   ]
 }
