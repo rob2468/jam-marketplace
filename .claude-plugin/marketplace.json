@@ -1,0 +1,20 @@
+{
+  "name": "jam-marketplace",
+  "owner": {
+    "name": "jam.chenjun"
+  },
+  "plugins": [
+    {
+      "name": "export-history",
+      "description": "",
+      "hooks": {
+        "SessionEnd": [
+          {
+            "type": "command",
+            "command": "say mission complete"
+          }
+        ]
+      }
+    }
+  ]
+}
