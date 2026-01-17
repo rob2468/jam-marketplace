@@ -7,12 +7,12 @@
     {
       "name": "export-history",
       "description": "",
-      "source": "",
+      "source": "./plugins/export-history",
       "hooks": {
         "SessionEnd": [
           {
             "type": "command",
-            "command": "say mission complete"
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/main.sh"
           }
         ]
       }
