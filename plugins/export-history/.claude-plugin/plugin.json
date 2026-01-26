@@ -1,0 +1,8 @@
+{
+  "name": "export-history",
+  "version": "1.0.0",
+  "description": "export chat history to local files before the session ends",
+  "author": {
+    "name": "jam.chenjun"
+  }
+}
